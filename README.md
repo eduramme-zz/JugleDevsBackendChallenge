@@ -1,23 +1,15 @@
 # Jungle Devs - Backend Challenge #001
 
-## Description
-**Challenge goal**: The idea of the challenge is to implement a very simplified version of [Reddit](https://www.reddit.com), 
-meaning you will have *Users*, *Topics*, *Posts* and *Comments*. with this you're expected to test your knowledge on 
-the basic concepts involved in a Django backend application, and to also learn even more.
-Always!
+## Considerations
 
-**Target level**: This is an entry level course, no prior knowledge of programming is needed.
- 
-**Final accomplishment**: By the end of this challenge, you’ll be able to understand the basics of Django and how to create your own RESTful API with basic CRUD functionalities.
+First of all I would like to thank the oportunity to participate this challenge, it was very enriching. I had almost no experience with python beforehand (the code that I made seems to be really ugly). The django tutorial was quite satifying and straightfoward to implement. It started to get ugly when Django REST Framework appeared. It was hard for me to understand the tutorials and how it fits in the project, as well as understand why things were being structured that way. 
 
-## Acceptance criteria
-- Separate your project into 4 Django apps, one for each entity:
-  - User
-  - Topic
-  - Post
-  - Comment
-- Have all the required fields for each entity as described on this README
-- Use the URL structure described on this README with Nested URL Routers
+I started the challenge with the intention to implement it using Django REST Framework, the User entity was built this way, but thigs started to get messy, so I decided to use plain Django to implement the rest of the entities. That being said, CRUD functionallities and authentication probably will not work. The URLs and entities models are following the specified instructions.
+
+Here's what you should expect:
+https://user-images.githubusercontent.com/22632486/109894762-d3ffc900-7c6c-11eb-9387-919285505cb4.mp4
+
+
 
 ## Prerequisites
 
